@@ -30,7 +30,7 @@ public class Triangle {
     public double getKat3() { return kat3; }
 
     public boolean isRightTriangle(Triangle triangle){
-        if(kat1 ==90 && kat1+kat2+kat3==180){
+        if(kat1 ==90 || kat2==90 || kat3==90 && kat1+kat2+kat3==180){
             return true;
         }
         else{
